@@ -1,4 +1,21 @@
-# STATUS (updated 2026-11-19)
+# STATUS (updated 2026-11-20)
+
+Upstream API exposure checked and fixed (2026-11-20; A-148):
+- **Reviewed** the four commits `0dd709b`…`0a40931` (PR #2 merge, Dockerfile `CMD`, public `/`
+  and `/health`). Kept their behaviour; fixed what broke: `make lint` failed on `main.py`
+  (import order, formatting), and the Dockerfile defaulted to port 10000 while compose publishes
+  and health-checks 8000. `main.py` is back to the reviewed version plus the `/` endpoint and
+  the exact-path token exemption; a test checks that `/docs`, `/openapi.json` and data stay gated.
+- **Verified:** `make lint`, `make type` and all 562 tests pass (with a local Postgres); the
+  OpenAPI contract is unchanged; the Dockerfile `CMD` run as-is without `PORT` migrates and
+  serves `/health` and `/` on 8000. Not run: a Docker image build (DEPLOY.md §6 workarounds).
+- **Pending (main → m3-c1):** `main`'s C5 "Universal Quality AI" (`22af017`…`c9d3bfb`) cannot
+  merge as is: its package is also named `cportal-c5`/`cportal_c5`, so `uv` refuses the
+  workspace, and 6 files conflict. Waiting on the user (Q-27: how the two C5 engines coexist;
+  Q-28: torch/anomalib in the image or an optional extra).
+- **Noted:** Next.js 16.4.3 reports a known security advisory (`next build` stops once, then
+  continues); 16.4.6 exists. Upgrade not done: a dependency change for the user to approve.
+
 
 C6 review fixes (2026-11-19; `docs/tariffs/REVIEW_2026-11-19.md`; A-142…A-147):
 - **All 14 review findings checked**: 13 real, fixed one per commit, each with a test that
