@@ -1,59 +1,75 @@
 # ShipperFast: 180-second video script ("Vibe to Production")
 
-Follows the submission guideline's five segments exactly. Every number below was read off the
-live site (https://shipper-fast.vercel.app) on 20 Nov 2026; numbers on real-data screens change
-with the data, so **read them off the screen when recording**. Scenario numbers are fixed.
+Follows the submission guideline's five segments and time boxes. Every screen, label and number
+below was checked on the live site (https://shipper-fast.vercel.app, logged in) on 20 Nov 2026.
+Real-data numbers move with the data: **read them off the screen**. Scenario numbers are fixed.
 
-Format per row: **screen → what to do** (cursor) → **say** (≈ 150 words per minute).
+**Pace:** about 375 words, roughly 135 words per minute: calm, with a short pause on each number.
+That takes about 170 s of speech; the pauses fill the rest of the 180 s. Every row's words fit its time window.
+
+**Labels used below:** the data picker at the top right is **Showing**; pages are in the left menu.
 
 ---
 
-## 0:00–0:30 · Problem (the vibe): "This problem matters"
+## 0:00–0:30 · Problem: "This problem matters"
 
 | Time | Screen → do | Say |
 |---|---|---|
-| 0:00 | `/welcome` (landing) for 2 s, then log in | "Garments are Bangladesh's biggest export, and they leave through one crowded port: Chattogram, about three and a half million containers a year." |
-| 0:08 | **Control Tower**, data selector = *Today (estimated)*. Hover the KPI **Median time in port** | "Ships queue for days. Add a cyclone, a strike or a full yard, and orders miss their dates." |
-| 0:16 | Hover **Yard occupancy** (NCT bar in red, ~196 %), then the **Brief** card | "Today, from public port data: about fifty hours median in port, one terminal at nearly double capacity. Exporters in Gazipur and pharma importers hear about it late, from a phone call." |
+| 0:00–0:10 | `/welcome` (landing page). Already logged in: no typing on camera | "Garments are Bangladesh's biggest export, and they leave through one crowded port: Chattogram, about three and a half million containers a year." |
+| 0:10–0:17 | **Control Tower**, Showing = *Today (estimated)*. Hover the card **Median time in port, last 24 h** | "Ships queue for days. A cyclone, a strike or a full yard, and orders run late." |
+| 0:17–0:30 | Hover **Yard occupancy** (the red NCT bar, ~196 %), then the **Brief · Chattogram** card | "Today, from public port data: about fifty hours median in port, one terminal near double capacity. Gazipur exporters and pharma importers hear about it late, by phone." |
 
 ## 0:30–1:00 · Solution: "This is how we solve it"
 
+Quick montage, about 3 s per page, no clicks needed:
+
 | Time | Screen → do | Say |
 |---|---|---|
-| 0:30 | Still Control Tower. Slowly move the cursor down the left menu | "ShipperFast is an AI control tower for the Chattogram–Dhaka corridor. It reads news, hazard alerts, ship tracking and official tariff schedules…" |
-| 0:42 | Point at the **LIVE / REPLAY** badges on the cards | "…maps which suppliers and orders depend on what, and recommends actions with a cost and a confidence." |
-| 0:50 | Point at the **Data:** selector (top right) | "What makes it different: one place for port, suppliers, routes, factory quality and tariffs, and every number says where it came from. Live, replay, or synthetic. Never guessed." |
+| 0:30–0:40 | Cut through **Ports & Vessels** → **Supplier Network** → **Disruption Radar** | "ShipperFast is an AI control tower for the Chattogram-to-Dhaka corridor. It reads news, hazard alerts, ship tracking and official tariff schedules," |
+| 0:40–0:49 | Cut through **Tariff Monitor** → **Route Planner** (form only) → **Quality Lab** | "maps which suppliers and orders depend on what, and recommends actions with a cost and a confidence." |
+| 0:49–1:00 | Back on **Control Tower**: point at a **LIVE** and a **REPLAY** badge, then at **Showing** | "Port, suppliers, routes, quality and tariffs in one place, and every number shows its source: live, replay or synthetic. Never guessed." |
 
 ## 1:00–2:00 · Demo: "This is how it works" (input → AI → output)
 
 | Time | Screen → do | Say |
 |---|---|---|
-| 1:00 | Data selector → **Cyclone shuts Chattogram + denim mill flood**. Control Tower: hover **Orders at risk: 96 orders, US$40M** | "Now a what-if, badged synthetic, fictional firms: a cyclone closes Chattogram and a denim mill floods. Ninety-six orders at risk." |
-| 1:10 | **Disruption Radar** → click the event **Chattogram port suspends cargo handling…**. Hover **Confidence 67% → 86% fused**, then the green **HAZARD** chip, then a highlighted evidence span | "Input: five news reports. The AI turns them into one event. Alone that's sixty-seven percent confidence. The cyclone alert agrees, so fusion raises it to eighty-six. Every highlighted word is the evidence it used." |
-| 1:25 | Scroll to **Export via BDMGL (recommendation)**. Hover **Expected value US$34.7K · Confidence 86 %**. *Do not click Accept on the live site* | "Output: a decision. Export through Mongla port: about thirty-five thousand dollars of expected value, after the extra freight." |
-| 1:33 | **Supplier Network** → hover row **1 Chattogram port · HIGH · sole path for 140 orders · TTS < TTR** → click it → show **What if Chattogram port is disrupted?** | "The supplier graph finds single points of failure. Chattogram is the only path for a hundred and forty orders, and the network runs out of stock before the port recovers." |
-| 1:44 | **Quality Lab** → hover lot **REJECTED**, then the **Lines** chart with the **ALARM** point (see note Q) | "On the factory floor, a vision model flags defects, the lot fails its inspection standard, and the order it blocks becomes a risk automatically." |
-| 1:52 | Data selector → **Today**. **Tariff Monitor** → click the **26.5 %** cell (T-shirt → United States) | "And real tariff data: a cotton T-shirt from Bangladesh pays twenty-six and a half percent into the US, traced to the legal line." |
+| 1:00–1:09 | **Showing** → *Cyclone shuts Chattogram + denim mill flood*. Hover **Orders at risk (next 30 days): 96 orders, US$40M** and its **SYNTHETIC** badge | "Now a what-if, clearly marked synthetic: a cyclone closes Chattogram and a denim mill floods. Ninety-six orders at risk." |
+| 1:09–1:23 | **Disruption Radar** → click **Chattogram port suspends cargo handling…**. The detail card opens below: scroll to it, hover **Confidence 67% → 86% fused**, the green **HAZARD** chip, then a highlighted word in **Evidence** | "Input: five news reports. The AI merges them into one event at sixty-seven percent confidence. A cyclone alert agrees, so fusion lifts it to eighty-six. Highlights show the evidence." |
+| 1:23–1:31 | Scroll to **Export via BDMGL (recommendation)**; hover **Expected value US$34.7K** and **Confidence 86%**. Hover **Accept**, but don't click it on the live site | "Output: a decision. Export through Mongla: about thirty-five thousand dollars of expected value, after extra freight." |
+| 1:31–1:42 | **Supplier Network** → hover row **1 · Chattogram port · HIGH · sole path for 140 orders · TTS < TTR** → click it; the side panel shows **What if Chattogram port is disrupted?** Don't click **Run what-if** on the live site | "The supplier graph finds weak points: Chattogram is the only path for a hundred and forty orders, and stock runs out before it recovers." |
+| 1:42–1:51 | **Quality Lab** → hover a **REJECTED** lot in **Lot board**, then the **ALARM** line and its chart (images: see note 2) | "In factories, a vision model flags defects, a lot fails inspection, and the blocked order becomes a delivery risk." |
+| 1:51–2:00 | **Tariff Monitor** (works in any Showing mode) → click the **26.5%** cell (Men's knitted cotton T-shirt → United States); the detail card opens below: scroll to the rate bar | "Plus real tariffs: a Bangladeshi cotton T-shirt pays twenty-six and a half percent into the US, traced to its legal line." |
 
 ## 2:00–2:30 · AI approach: "This is real AI thinking"
 
 | Time | Screen → do | Say |
 |---|---|---|
-| 2:00 | **Data & Models** → scroll to **Models** | "Each capability is its own AI pipeline, and each one must beat a simple baseline on held-out data before it ships." |
-| 2:08 | **Ports & Vessels** → scroll to **C4 dwell and queue model** (the forecast fan) | "Port waits: LightGBM quantile models with conformal intervals, trained on twenty-six thousand real port calls. Eighteen percent better than the baseline for cargo ships." |
-| 2:17 | Back to **Disruption Radar** evidence, or **Quality Lab** heatmaps | "News: an extractor checked by a local LLM that must quote its source. Defects: a DINOv2 vision model on CPU. A graph model and evidence fusion tie it together." |
-| 2:25 | Point at **Noto Bangla labels on the map** (e.g. আনোয়ারা near Chattogram) | "Built for Bangladesh: local ports, rules and data, and the interface already renders Bangla." |
+| 2:00–2:07 | **Data & Models** → scroll to **Models** ("Each model ships with a baseline, a card and a time-based evaluation") | "Every model ships with a baseline, a model card and a test on held-out time." |
+| 2:07–2:17 | **Ports & Vessels** → scroll to **C4 dwell and queue model**; hover **Departure windows that held: 85%** | "Port waits: LightGBM quantile models with conformal intervals, on twenty-six thousand real port calls. Eighty-five percent of departure windows held." |
+| 2:17–2:26 | **Disruption Radar** (scenario) → the evidence highlights again, or the Quality Lab heatmaps | "News: rules plus a local LLM that must quote its source. Defects: DINOv2 vision on CPU. A graph links them." |
+| 2:26–2:30 | Radar **Where** map: zoom on Bangladesh, where the label **বাংলাদেশ** shows | "Built for Bangladesh; it already renders Bangla." |
 
 ## 2:30–3:00 · Impact and next step: "We can build and scale this"
 
 | Time | Screen → do | Say |
 |---|---|---|
-| 2:30 | Data selector → cyclone scenario. **Scenario Studio**: hover **Orders saved 2.2 · OTIF +1.6 pts · Net value US$98.4K** | "Same cyclone, with and without ShipperFast: two orders saved, on-time delivery up one point six, and ninety-eight thousand dollars net after the cost of acting." |
-| 2:42 | Hover **Export one page (PDF)** | "On real 2023 to 2026 data, our alerts came thirty-four to fifty-three hours before Chattogram's worst day, and we publish the false alarms too." |
-| 2:50 | Back to `/welcome` | "Next: Bangla news and interface, pilots with garment and pharma shippers, and more ports. ShipperFast: see the delay before it reaches your orders." |
+| 2:30–2:41 | **Scenario Studio** (cyclone scenario): hover **Orders saved 2.2**, **OTIF +1.6 pts**, **Net value of acting US$98.4K** | "Same cyclone, with and without ShipperFast: two orders saved, on-time delivery up one point six, ninety-eight thousand dollars net of costs." |
+| 2:41–2:50 | Same page: hover the **With Nexus vs without** table, then **Export one page (PDF)** | "On real 2023-to-2026 data, alerts came thirty-four to fifty-three hours before Chattogram's worst day. We publish the false alarms too." |
+| 2:50–3:00 | `/welcome`, then fade to an end card: **ShipperFast · shipper-fast.vercel.app** | "Next: Bangla news, pilots with garment and pharma shippers, more ports. ShipperFast: see the delay before it reaches your orders." |
 
-Narration ≈ 450 words, just under 3 min at 150 words per minute: speak briskly. If you run long, cut the 1:52 tariff row
-first (it can be a 3-second cut with no words) and then the 2:25 Bangla row.
+If you run long, drop the 1:51 tariff words and keep a 3-second silent cut of the matrix.
+
+## On-screen captions (add in the editor; they help judges follow)
+
+| Time | Caption |
+|---|---|
+| 0:00 | The problem: one port, every export |
+| 0:30 | One AI control tower · 6 capabilities |
+| 1:09 | INPUT: 5 news reports |
+| 1:15 | AI: fusion 67% → 86% |
+| 1:23 | OUTPUT: costed decision |
+| 2:00 | Every model beats a baseline |
+| 2:30 | Impact (synthetic scenario) |
 
 ---
 
@@ -61,40 +77,41 @@ first (it can be a 3-second cut with no words) and then the 2:25 Bangla row.
 
 | Requirement | Where |
 |---|---|
-| 180 s, structured | Five segments with the guideline's own time boxes |
-| Clear problem and user | 0:00–0:30: Chattogram, garment exporters in Gazipur, pharma importers |
-| AI-native approach (LLM / RAG / Graph / ML) | 2:00–2:30: LLM-checked extraction, supplier graph, LightGBM + conformal, DINOv2 vision, evidence fusion |
-| Basic system flow (input → AI → output) | 1:10–1:33: news reports (input) → fused event (AI) → costed reroute (output) |
-| Demo / prototype | 1:00–2:00 on the deployed site |
-| Bangla / localisation | 2:25 (Bangla map labels, local ports and rules) and 2:50 (Bangla news and UI next). Say only this: today Bangla is supported in rendering, not in news extraction |
-| Impact (KPIs / outcomes) | 2:30–2:50: orders saved, OTIF, net value, alert lead time (K-03) |
+| 180 s, structured | Five segments with the guideline's time boxes |
+| Clear problem and users | 0:00–0:30: Chattogram, garment exporters in Gazipur, pharma importers |
+| AI-native approach (LLM / RAG / Graph / ML) | 2:00–2:26: LLM-checked extraction, supplier graph, LightGBM + conformal, DINOv2 vision, evidence fusion |
+| Basic system flow (input → AI → output) | 1:09–1:31, with captions |
+| Demo / prototype | 1:00–2:00, on the deployed site |
+| Bangla / localisation | 2:26 (Bangla rendering) and 2:50 (Bangla news next). Claim only this: today Bangla is supported on screen, not in news reading |
+| Impact (KPIs / outcomes) | 2:30–2:50: orders saved, OTIF, net value, alert lead time |
+| Every capability shown | C1 Network 1:31 · C2 Radar 1:09 · C3 Routes 0:40 · C4 Ports 2:07 · C5 Quality 1:42 · C6 Tariffs 1:51 · Nexus Studio 2:30 |
 
 ## Facts behind the narration (be ready if asked)
 
 | Claim | Source |
 |---|---|
 | ~3.41 M TEU in 2025 | Lloyd's List ranking via Dhaka Tribune (`docs/brief/01-product.md`) |
-| 67 % → 86 % fused; Mongla EV US$34.7K; 96 orders / US$40M | Live site, cyclone scenario (synthetic) |
+| 96 orders / US$40M; 67% → 86% fused; Mongla EV US$34.7K; 140 orders via Chattogram | Live site, cyclone scenario (synthetic, fictional firms) |
 | 2.2 orders, +1.6 pts OTIF, US$98.4K net | Scenario Studio (synthetic), `docs/model-cards/nexus-studio.md` |
-| 26,008 port calls; MAE 17.8 % better for cargo; 80 % band covers 81 % | `docs/model-cards/c4-port-dwell.md` (real GFW data, 2026 holdout) |
+| 26,008 real port calls; MAE 17.8% better than baseline for cargo; 80% band covers 81% on the test set | `docs/model-cards/c4-port-dwell.md` (GFW, 2026 holdout) |
+| 85% of departure windows held (67 of 79) | Ports & Vessels, C4 replay snapshot (read off screen) |
 | 34–53 h lead (2 storm episodes, median 43.5 h); 3 of 7 alerts matched, 4 were false alarms | `docs/model-cards/nexus-backtest.md` |
 | DINOv2-S on ONNX, CPU; ISO 2859-1 AQL | `docs/model-cards/c5-defect-intel.md` |
-| US T-shirt 26.5 % = 16.5 % MFN + 10 % surcharge | Tariff Monitor (USITC, DS-TRADE-05) |
+| US T-shirt 26.5% = 16.5% MFN + 10% surcharge | Tariff Monitor (USITC, DS-TRADE-05) |
 
-## Before you record (found while checking the live site)
+## Before you record
 
-1. **Refresh live data first** (port data showed "as of 17 Nov, stale"):
-   `make cloud-refresh` (Docker), or record the real-data part right after the teammate's worker runs.
-2. **Quality Lab images do not load on the live site** (note Q). The MVTec images are non-commercial and are
-   kept off Render on purpose, and live upload is off there (512 MB). Options: record the Quality Lab clip from
-   a local run (`make demo`), or cut to `docs/screenshots/quality-lab-v2-light.png` for the heatmaps. The lot
-   board and the SPC chart do work live.
-3. **Do not click Accept on the live site.** It writes to the shared database and cannot be reset there. To
-   show the click, record locally and run `make golden` afterwards.
-4. **Check Route Planner once** (Plan routes) before recording; it was not checked live. It is not in the
-   main flow; use it only as extra footage.
-5. **Use the scenario, not the real news list, for the radar.** A few real headlines are misclassified (e.g.
-   a profit report tagged as a fire), which would distract.
-6. **Wake the API 2 minutes before recording** (Render's free tier sleeps): open
-   https://cportal-api.onrender.com/health.
-7. Light theme, 1280 px window, browser zoom 100 %, bookmarks bar hidden, cursor highlight on.
+1. **Log in first**, so the video never shows typing.
+2. **Quality Lab images don't load on the live site.** The MVTec images are non-commercial and kept off
+   Render on purpose, and live upload is off there (512 MB). The lot board and SPC chart work live. For
+   heatmaps, record that clip locally (`make demo`) or use `docs/screenshots/quality-lab-v2-light.png`.
+3. **Don't click Accept or Run what-if on the live site.** Both write to the shared database and can't be
+   reset there. To show the clicks, record locally and run `make golden` afterwards.
+4. **Refresh live data first.** The port data showed "as of 17 Nov, stale". Run `make cloud-refresh`, or
+   record right after the teammate's worker runs.
+5. **Route Planner** appears only as the form in the montage. Test **Plan routes** once before using more of
+   it; it wasn't checked live.
+6. **Use the scenario for the radar**, not the real news list: a few real headlines are misclassified.
+7. **Wake the API 2 minutes before recording** (Render's free tier sleeps):
+   https://cportal-api.onrender.com/health
+8. Light theme, 1280 px window, browser zoom 100%, bookmarks bar hidden, cursor highlight on.
