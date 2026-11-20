@@ -17,7 +17,7 @@ That takes about 170 s of speech; the pauses fill the rest of the 180 s. Every r
 |---|---|---|
 | 0:00–0:10 | `/welcome` (landing page). Already logged in: no typing on camera | "Garments are Bangladesh's biggest export, and they leave through one crowded port: Chattogram, about three and a half million containers a year." |
 | 0:10–0:17 | **Control Tower**, Showing = *Today (estimated)*. Hover the card **Median time in port, last 24 h** | "Ships queue for days. A cyclone, a strike or a full yard, and orders run late." |
-| 0:17–0:30 | Hover **Yard occupancy** (the red NCT bar, ~196 %), then the **Brief · Chattogram** card | "Today, from public port data: about fifty hours median in port, one terminal near double capacity. Gazipur exporters and pharma importers hear about it late, by phone." |
+| 0:17–0:30 | Hover the **LIVE** badge under the port map, then **Yard occupancy** (the red NCT bar, ~196 %), then the **Brief · Chattogram** card | "This is live, from the port authority's public data: fifty hours in port, one terminal near double capacity. Garment and pharma shippers hear about it late, by phone." |
 
 ## 0:30–1:00 · Solution: "This is how we solve it"
 
